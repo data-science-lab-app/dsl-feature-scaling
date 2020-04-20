@@ -81,7 +81,7 @@ class ZScoreNormalizationPluginInputs extends PluginInputs {
                 id: 'feature',
                 label: 'Features to Normalize',
                 min: 1,
-                type: 'feature'
+                type: 'number'
             }];
     }
 }
