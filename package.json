@@ -20,9 +20,30 @@
     "url": "https://github.com/data-science-lab-app/dsl-feature-scaling/issues"
   },
   "homepage": "https://github.com/data-science-lab-app/dsl-feature-scaling#readme",
-  "data_science_lab": [],
+  "data_science_lab": [
+    {
+      "name": "Min Max Normalization",
+      "type": "Transform",
+      "classname": "MinMaxNormalization"
+    },
+    {
+      "name": "Mean Normalization",
+      "type": "Transform",
+      "classname": "MeanNormalization"
+    },
+    {
+      "name": "Unit Length Normalization",
+      "type": "Transform",
+      "classname": "UnitLengthNormalization"
+    },
+    {
+      "name": "Z Score Normalization",
+      "type": "Transform",
+      "classname": "ZScoreNormalization"
+    }
+  ],
   "dependencies": {
-    "data-science-lab-core": "^0.0.27"
+    "data-science-lab-core": "^0.0.30"
   },
   "devDependencies": {
     "@types/node": "^12.11.1",
